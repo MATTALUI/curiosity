@@ -1,0 +1,81 @@
+h1 {
+    color: blue;
+}
+body{
+  background-color: #985238;
+}
+
+#FHAZ {
+    position: absolute;
+    top: 270px;
+    left: 300px;
+}
+
+#RHAZ {
+    position: absolute;
+    left: 480px;
+    top: 200px;
+}
+
+#MAST {
+    position: absolute;
+    top: 90px;
+    left: 280px;
+}
+
+#CHEMCAM {
+    position: absolute;
+    top: 130px;
+    left: 230px;
+}
+#MAHLI{
+  position: absolute;
+  top:100px;
+  left: 35px;
+}
+#MARDI{
+  position: absolute;
+  top: 245px;
+  left: 400px;
+}
+#NAVCAM{
+  position: absolute;
+  top: 90px;
+  left: 230px;
+}
+
+span {
+  background-color: black;
+    color: white;
+    /*-webkit-text-stroke: .5px white;*/
+}
+.active{
+animation: ANIM .5s infinite;
+color:black
+
+}
+
+.rover {
+    background-image: url('http://orig00.deviantart.net/400a/f/2015/276/a/8/mars_science_lab_curiosity_rover_01_by_dangeruss-d9bs2c0.jpg');
+    background-size: cover;
+    height: 324px;
+    width: 576px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+@-webkit-keyframes ANIM {
+0%, 49% {
+    background-color: #5491f2;
+    border: 3px solid #d8dd27;
+}
+50%, 100% {
+    background-color: #d8dd27;
+    border: 3px solid #5491f2;
+}
+}
